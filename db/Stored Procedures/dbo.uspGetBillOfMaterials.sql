@@ -9,7 +9,7 @@ CREATE PROCEDURE [dbo].[uspGetBillOfMaterials]
 AS
 BEGIN
     SET NOCOUNT ON;
-
+	/* test comment for versioning */
     -- Use recursive query to generate a multi-level Bill of Material (i.e. all level 1 
     -- components of a level 0 assembly, all level 2 components of a level 1 assembly)
     -- The CheckDate eliminates any components that are no longer used in the product on this date.
